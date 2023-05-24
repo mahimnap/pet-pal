@@ -1,0 +1,1180 @@
+{
+	"info": {
+		"_postman_id": "0c85a052-0e52-4a23-ba45-82e6db8bd076",
+		"name": "PetfinderAPI",
+		"description": "The Petfinder API allows you to access the Petfinder database of hundreds\nof thousands of pets ready for adoption and over ten thousand animal\nwelfare organizations.\n\n\nContact Support:\n Name: Petfinder API Help\n Email: help@petfinder.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "types",
+			"item": [
+				{
+					"name": "{type}",
+					"item": [
+						{
+							"name": "Get Animal Type",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/types/:type",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"types",
+										":type"
+									],
+									"variable": [
+										{
+											"key": "type",
+											"value": "in pariatur minim aliqua",
+											"description": "(Required) Animal type"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Type information",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: oauth2",
+												"key": "Authorization",
+												"value": "<token>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/types/:type",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"types",
+												":type"
+											],
+											"variable": [
+												{
+													"key": "type",
+													"value": "in pariatur minim aliqua",
+													"description": "(Required) Animal type"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"type\": {\n    \"name\": \"nisi ut adipisicing reprehenderit\",\n    \"coats\": [\n      \"ex\",\n      \"ad ut fugiat\"\n    ],\n    \"colors\": [\n      \"proident occaecat in\",\n      \"elit pariatur reprehenderit magna\"\n    ],\n    \"genders\": [\n      \"proident in\",\n      \"tempor ex\"\n    ],\n    \"_links\": {\n      \"self\": {\n        \"href\": \"https://PmIlfgZawggyknwlx.strkkrTFdJwYZBFsU.CdYVqXS7JSpC+D5Hmjn4ULfRCooxuNH2i2abXOIgbnwhm?sdq&\"\n      },\n      \"breeds\": {\n        \"href\": \"http://XnmKYMqJNepLFELgdgLRdNDMx.xtAxFhF7SPJ++NMjo+Y17RDXd5sNhmp+cL89T5CLSSTRMMUfx20xWM5coe9+TYT?qgqw=ITQvq&r=mWlty&\"\n      }\n    }\n  }\n}"
+								},
+								{
+									"name": "Error",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: oauth2",
+												"key": "Authorization",
+												"value": "<token>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/types/:type",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"types",
+												":type"
+											],
+											"variable": [
+												{
+													"key": "type",
+													"value": "in pariatur minim aliqua",
+													"description": "(Required) Animal type"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/problem+json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"type\": \"est\",\n  \"title\": \"esse minim\",\n  \"detail\": \"ex consectetur\",\n  \"status\": -98378904\n}"
+								}
+							]
+						},
+						{
+							"name": "Get Animal Breeds",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/types/:type/breeds",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"types",
+										":type",
+										"breeds"
+									],
+									"variable": [
+										{
+											"key": "type",
+											"value": "in pariatur minim aliqua",
+											"description": "(Required) Animal type"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"name": "Breeds collection",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: oauth2",
+												"key": "Authorization",
+												"value": "<token>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/types/:type/breeds",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"types",
+												":type",
+												"breeds"
+											],
+											"variable": [
+												{
+													"key": "type",
+													"value": "in pariatur minim aliqua",
+													"description": "(Required) Animal type"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"breeds\": [\n    {\n      \"name\": \"ut veniam esse\",\n      \"_links\": {\n        \"type\": {\n          \"href\": \"http://uUFUwNGPVXmJgfPALLKdqrhgiCyLyzwB.bdI4OYEXhJXKCpUd5ZXK3LN?gwefpv=kD&\"\n        }\n      }\n    },\n    {\n      \"name\": \"dolore veniam deserunt amet\",\n      \"_links\": {\n        \"type\": {\n          \"href\": \"https://HkhrRaMLHaxFmpXW.fqkbjZ0gk,.K3WH0M7eLlKSoEt8f87UcQzq3UTObf0TOh6F7TAxErUWkqp9korOpXpjc-\"\n        }\n      }\n    }\n  ]\n}"
+								},
+								{
+									"name": "Error",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: oauth2",
+												"key": "Authorization",
+												"value": "<token>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/types/:type/breeds",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"types",
+												":type",
+												"breeds"
+											],
+											"variable": [
+												{
+													"key": "type",
+													"value": "in pariatur minim aliqua",
+													"description": "(Required) Animal type"
+												}
+											]
+										}
+									},
+									"status": "Internal Server Error",
+									"code": 500,
+									"_postman_previewlanguage": "json",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "application/problem+json"
+										}
+									],
+									"cookie": [],
+									"body": "{\n  \"type\": \"est\",\n  \"title\": \"esse minim\",\n  \"detail\": \"ex consectetur\",\n  \"status\": -98378904\n}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Get Animal Types",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/types",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"types"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Type collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/types",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"types"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"types\": [\n    {\n      \"name\": \"sint veniam\",\n      \"coats\": [\n        \"et tempor\",\n        \"Duis cupidatat ea exercitation\"\n      ],\n      \"colors\": [\n        \"ad adipisicing mollit Lorem\",\n        \"ut nostrud non nulla enim\"\n      ],\n      \"genders\": [\n        \"ea adipisicing in minim\",\n        \"qui irure eiusmod\"\n      ],\n      \"_links\": {\n        \"self\": {\n          \"href\": \"https://WGEJqDPYrFUHgqCz.agqjbLCAxjCR\"\n        },\n        \"breeds\": {\n          \"href\": \"http://VN.yfvpqdCU0QrVtfkvBrF1lYiuD.Spsfi3TThN9dF3VZsxtvLDXYYw\"\n        }\n      }\n    },\n    {\n      \"name\": \"consequat qui\",\n      \"coats\": [\n        \"aliqua dolore mollit in\",\n        \"voluptate dolor ea\"\n      ],\n      \"colors\": [\n        \"eu nostrud sint dolor\",\n        \"deserunt\"\n      ],\n      \"genders\": [\n        \"consectetur officia consequat \",\n        \"nisi labore reprehenderit\"\n      ],\n      \"_links\": {\n        \"self\": {\n          \"href\": \"http://lTRcMeBRFWetz.myhliB4aYvDZZtwh?\"\n        },\n        \"breeds\": {\n          \"href\": \"http://yregbmxSkCSEoxzdjvgm.ldm,HMgwJ5WbJGxQpJ\"\n        }\n      }\n    }\n  ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "animals",
+			"item": [
+				{
+					"name": "Get Animals",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/animals?type=dog&page=2",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"animals"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "dog",
+									"description": "Filter results matching animal type"
+								},
+								{
+									"key": "breed",
+									"value": "dolore minim do officia consectetur",
+									"description": "Filter results matching animal breed",
+									"disabled": true
+								},
+								{
+									"key": "breed",
+									"value": "eu anim",
+									"description": "Filter results matching animal breed",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "small",
+									"description": "Filter results matching animal size",
+									"disabled": true
+								},
+								{
+									"key": "size",
+									"value": "extra-large",
+									"description": "Filter results matching animal size",
+									"disabled": true
+								},
+								{
+									"key": "gender",
+									"value": "male",
+									"description": "Filter results matching animal gender",
+									"disabled": true
+								},
+								{
+									"key": "gender",
+									"value": "unknown",
+									"description": "Filter results matching animal gender",
+									"disabled": true
+								},
+								{
+									"key": "age",
+									"value": "senior",
+									"description": "Filter results matching animal age",
+									"disabled": true
+								},
+								{
+									"key": "age",
+									"value": "adult",
+									"description": "Filter results matching animal age",
+									"disabled": true
+								},
+								{
+									"key": "color",
+									"value": "dolore minim do officia consectetur",
+									"description": "Filter results matching animal color",
+									"disabled": true
+								},
+								{
+									"key": "color",
+									"value": "eu anim",
+									"description": "Filter results matching animal color",
+									"disabled": true
+								},
+								{
+									"key": "coat",
+									"value": "curly",
+									"description": "Filter results matching animal coat",
+									"disabled": true
+								},
+								{
+									"key": "coat",
+									"value": "hairless",
+									"description": "Filter results matching animal coat",
+									"disabled": true
+								},
+								{
+									"key": "organization",
+									"value": "dolore minim do officia consectetur",
+									"description": "Filter results by organization",
+									"disabled": true
+								},
+								{
+									"key": "organization",
+									"value": "eu anim",
+									"description": "Filter results by organization",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results by name. Uses partial match.",
+									"disabled": true
+								},
+								{
+									"key": "location",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results matching animal location (postal code, city/state, lat/long)",
+									"disabled": true
+								},
+								{
+									"key": "distance",
+									"value": "12576009",
+									"description": "Filter results by distance from given location",
+									"disabled": true
+								},
+								{
+									"key": "status",
+									"value": "found",
+									"description": "Filter by adoption status",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "recent",
+									"description": "Field to sort by",
+									"disabled": true
+								},
+								{
+									"key": "limit",
+									"value": "20",
+									"description": "Number of results to return",
+									"disabled": true
+								},
+								{
+									"key": "page",
+									"value": "2",
+									"description": "Page of results to return"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Animal collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/animals?type=horse&breed=tempor&breed=officia elit&size=medium&size=extra-large&gender=male&gender=unknown&age=senior&age=young&color=tempor&color=officia elit&coat=long&coat=medium&organization=tempor&organization=officia elit&name=in pariatur minim aliqua&location=in pariatur minim aliqua&distance=12576009&status=found&sort=recent&limit=20&page=1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"animals"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "horse"
+										},
+										{
+											"key": "breed",
+											"value": "tempor"
+										},
+										{
+											"key": "breed",
+											"value": "officia elit"
+										},
+										{
+											"key": "size",
+											"value": "medium"
+										},
+										{
+											"key": "size",
+											"value": "extra-large"
+										},
+										{
+											"key": "gender",
+											"value": "male"
+										},
+										{
+											"key": "gender",
+											"value": "unknown"
+										},
+										{
+											"key": "age",
+											"value": "senior"
+										},
+										{
+											"key": "age",
+											"value": "young"
+										},
+										{
+											"key": "color",
+											"value": "tempor"
+										},
+										{
+											"key": "color",
+											"value": "officia elit"
+										},
+										{
+											"key": "coat",
+											"value": "long"
+										},
+										{
+											"key": "coat",
+											"value": "medium"
+										},
+										{
+											"key": "organization",
+											"value": "tempor"
+										},
+										{
+											"key": "organization",
+											"value": "officia elit"
+										},
+										{
+											"key": "name",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "location",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "distance",
+											"value": "12576009"
+										},
+										{
+											"key": "status",
+											"value": "found"
+										},
+										{
+											"key": "sort",
+											"value": "recent"
+										},
+										{
+											"key": "limit",
+											"value": "20"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"animals\": [\n    {\n      \"id\": -52909441,\n      \"organization_id\": \"adipisicing dolore ullamco aute\",\n      \"url\": \"https://dnaNcTlBEHXmWvGdFmsvY.tdtscgHirVd,-lCxvzsHOhoNXEe29g5g2HI9vzBf5CkSItL4gQaLtOXgnr7GRVtHt5bFV\",\n      \"type\": \"conse\",\n      \"species\": \"aute dolor sint\",\n      \"breeds\": {\n        \"primary\": \"Ut qui\",\n        \"secondary\": \"sed fugiat minim pariatur\",\n        \"mixed\": false,\n        \"unknown\": true\n      },\n      \"colors\": {\n        \"primary\": \"ullamco consectetur aute aliqua\",\n        \"secondary\": \"nostrud dolore elit\",\n        \"tertiary\": \"eiusmod ipsum dolore\"\n      },\n      \"age\": \"cupidatat culpa\",\n      \"gender\": \"ex do elit voluptate irure\",\n      \"size\": \"sed ut labore commodo Lorem\",\n      \"coat\": \"irure\",\n      \"attributes\": {\n        \"spayed_neutered\": true,\n        \"house_trained\": true,\n        \"declawed\": false,\n        \"special_needs\": true,\n        \"shots_current\": false\n      },\n      \"environment\": {\n        \"children\": false,\n        \"dogs\": false,\n        \"cats\": true\n      },\n      \"tags\": [\n        \"occaecat reprehenderit irure\",\n        \"sed nostrud ut occaecat elit\"\n      ],\n      \"name\": \"aute in laboris\",\n      \"description\": \"minim ad culpa\",\n      \"photos\": [\n        {\n          \"small\": \"http://FAgHtIEVfxiOqFIrsvP.aykHiCq7sIlmL8InQTcELbG5pRpbuUCFqDhIL-GJ0Iq4zhvP7Y\",\n          \"medium\": \"https://MDtsXBzDQpJzwUpeZhxrkLNiJsigcQB.sdtcgc,kHj4hlq0rQ10WmYeULt17LeGa7jQoFLj\",\n          \"large\": \"http://qlNRwGZ.txvhC20vkgombuoU2P\",\n          \"full\": \"https://HqSdxdUhRWovJdeVwKpYyiTamuVItn.pbtvoDtD\"\n        },\n        {\n          \"small\": \"https://bBfwFDtubkRWQ.jflOyGvTRG3Zay\",\n          \"medium\": \"https://cHZvbPqrXMXNMw.vudhCz8DsYYK1Gj-d.2WRiv6932b5rq9Do3ajPmj.qFwTZ5wSPh8-yeAO-2WZF5.eIH,nGA\",\n          \"large\": \"http://YgddMrvMTmR.shLJfNRK71UnkV.i8L\",\n          \"full\": \"https://ZBHQulqrtD.dqqP\"\n        }\n      ],\n      \"status\": \"Lorem ut proident\",\n      \"published_at\": \"1948-05-14T17:16:58.763Z\",\n      \"contact\": {\n        \"email\": \"uNH@jaobPemgmjxVqeRlitRb.tw\",\n        \"phone\": \"magna consectetur fugiat\",\n        \"address\": {\n          \"address1\": \"qui laborum dolore adipisicing ut\",\n          \"address2\": \"aliqua incididunt\",\n          \"city\": \"occaecat\",\n          \"state\": \"nisi dolore dolore\",\n          \"postcode\": \"anim reprehenderit\",\n          \"country\": \"cupi\"\n        }\n      },\n      \"_links\": {\n        \"self\": {\n          \"href\": \"http://ZUuUFRiCElj.wvdpxSOAmY8lymCsH-\"\n        },\n        \"type\": {\n          \"href\": \"http://fMKGWsqDfOmniPtZwUBPtfM.ahvbdcz.mn4d+AvM5lj7XsynJhpVaFwKFAexGJYj1oJFOz5sFY-CNcJpmEIor+mnaUWP\"\n        },\n        \"organization\": {\n          \"href\": \"http://nlauDwvPLjQkkaQSJCu.ayjs2sDrUrBqihlksa,YYMgih?mb=H&ugsyhld&zjpfmyx&\"\n        }\n      }\n    },\n    {\n      \"id\": 41758991,\n      \"organization_id\": \"est nostrud minim adipisicing\",\n      \"url\": \"http://CKHiRejQoIQnfdsbnPihXg.aafpAmg2IbFBDO5ZGFzrK3Wg-8mPzKS55\",\n      \"type\": \"Duis non\",\n      \"species\": \"pariatur\",\n      \"breeds\": {\n        \"primary\": \"dolor irure sunt enim\",\n        \"secondary\": \"non consectetur voluptate aliquip elit\",\n        \"mixed\": true,\n        \"unknown\": true\n      },\n      \"colors\": {\n        \"primary\": \"ullamco cillum nulla\",\n        \"secondary\": \"sunt magna\",\n        \"tertiary\": \"aute Duis commodo cillum\"\n      },\n      \"age\": \"ullamco laborum\",\n      \"gender\": \"voluptate amet in\",\n      \"size\": \"dolor non\",\n      \"coat\": \"eiusmod laboris ex\",\n      \"attributes\": {\n        \"spayed_neutered\": false,\n        \"house_trained\": false,\n        \"declawed\": false,\n        \"special_needs\": false,\n        \"shots_current\": false\n      },\n      \"environment\": {\n        \"children\": true,\n        \"dogs\": false,\n        \"cats\": true\n      },\n      \"tags\": [\n        \"incididunt qui ea aliquip\",\n        \"aliquip culpa\"\n      ],\n      \"name\": \"elit\",\n      \"description\": \"et ut\",\n      \"photos\": [\n        {\n          \"small\": \"http://LnFGBhuNstBXPBLBvJKfizwaCIGycsOXg.jyzhtUDl5OwMiYQobwP7hO1TzQDib63g3-N5vhkQ-VQA2mjLGN\",\n          \"medium\": \"http://ajnuGlEBnYqCXxOYqNRgTcSnTWrNZWXV.hpfw.fB0t2vknclg7V-WGpSuP1AWfFKOtfAal26kckEeWMuG,yDy7IoXleyyAkANJUUiY2u\",\n          \"large\": \"https://uRsaugVJlcQMqnZ.utrzkVL.fmCe3DkvS48ntrgCrkLYF99it3JOhgXc\",\n          \"full\": \"https://NFIgeOLykkQnfv.pdqgaUpfy1NKay+ObAHU8Sc,g7qTvvs+y9UEyXKuVjBdSvO0ICASDJg\"\n        },\n        {\n          \"small\": \"http://pJQvuQIzteORGtqyPQRGMwFVijhm.lysXoiQW5tqwR753\",\n          \"medium\": \"https://fHbXF.mdaOOpwO05S.dLXGNCh3AwRbqofyZfSeosVcS6\",\n          \"large\": \"https://WUArjZeZTmokx.edzbadN01SGdLgC6D+JOqKYwicS53lVKtuNoBwG+knbTjOX7upqR\",\n          \"full\": \"http://TLGpxJXdKAnGnHMLBeOndvFOnXDhuQn.sfn9dyTrwlN5WZKMmm7qrLADibFPKhZgmSFq4.OSM.EYgPmKshTUj,b\"\n        }\n      ],\n      \"status\": \"aliqua id adipisicing\",\n      \"published_at\": \"2001-06-24T20:48:41.002Z\",\n      \"contact\": {\n        \"email\": \"4KTtDsTibR@omCLZCCopFZArzStUYu.vfr\",\n        \"phone\": \"pr\",\n        \"address\": {\n          \"address1\": \"reprehenderit pariatur\",\n          \"address2\": \"ullamco aliquip Ut\",\n          \"city\": \"consequat minim in Lorem\",\n          \"state\": \"nulla culpa enim eu non\",\n          \"postcode\": \"minim ut\",\n          \"country\": \"l\"\n        }\n      },\n      \"_links\": {\n        \"self\": {\n          \"href\": \"https://DMCCOFGscLGoJaJXMQMdplhoRRPLqLR.eoalfRNTxVztSsUH+IYKT0Z4xRbAkmmoFcpHeDQEgHmL08P\"\n        },\n        \"type\": {\n          \"href\": \"http://zx.jupSGAcGbtXINjj?\"\n        },\n        \"organization\": {\n          \"href\": \"http://MPTTjqAtcCwpTGCCwBrHkOT.dwKg6JMwMj\"\n        }\n      }\n    }\n  ],\n  \"pagination\": {\n    \"count_per_page\": 20,\n    \"total_count\": 320,\n    \"current_page\": 1,\n    \"total_pages\": 16,\n    \"_links\": {\n      \"previous\": {\n        \"href\": \"http://jkulYjE.kxzPyaz0kTxEix?kjj&\"\n      },\n      \"next\": {\n        \"href\": \"https://xUZKuFTIqOkWXsFBEBHkEB.kjliTgGOOBqm93IHX+R66wQ1at.l3E.rRAK\"\n      }\n    }\n  }\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/animals?type=horse&breed=tempor&breed=officia elit&size=medium&size=extra-large&gender=male&gender=unknown&age=senior&age=young&color=tempor&color=officia elit&coat=long&coat=medium&organization=tempor&organization=officia elit&name=in pariatur minim aliqua&location=in pariatur minim aliqua&distance=12576009&status=found&sort=recent&limit=20&page=1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"animals"
+									],
+									"query": [
+										{
+											"key": "type",
+											"value": "horse"
+										},
+										{
+											"key": "breed",
+											"value": "tempor"
+										},
+										{
+											"key": "breed",
+											"value": "officia elit"
+										},
+										{
+											"key": "size",
+											"value": "medium"
+										},
+										{
+											"key": "size",
+											"value": "extra-large"
+										},
+										{
+											"key": "gender",
+											"value": "male"
+										},
+										{
+											"key": "gender",
+											"value": "unknown"
+										},
+										{
+											"key": "age",
+											"value": "senior"
+										},
+										{
+											"key": "age",
+											"value": "young"
+										},
+										{
+											"key": "color",
+											"value": "tempor"
+										},
+										{
+											"key": "color",
+											"value": "officia elit"
+										},
+										{
+											"key": "coat",
+											"value": "long"
+										},
+										{
+											"key": "coat",
+											"value": "medium"
+										},
+										{
+											"key": "organization",
+											"value": "tempor"
+										},
+										{
+											"key": "organization",
+											"value": "officia elit"
+										},
+										{
+											"key": "name",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "location",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "distance",
+											"value": "12576009"
+										},
+										{
+											"key": "status",
+											"value": "found"
+										},
+										{
+											"key": "sort",
+											"value": "recent"
+										},
+										{
+											"key": "limit",
+											"value": "20"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/problem+json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"type\": \"est\",\n  \"title\": \"esse minim\",\n  \"detail\": \"ex consectetur\",\n  \"status\": -98378904\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Animal",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/animals/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"animals",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "12576009",
+									"description": "(Required) Animal ID"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Animal",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/animals/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"animals",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "12576009",
+											"description": "(Required) Animal ID"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"animal\": {\n    \"id\": 39728457,\n    \"organization_id\": \"qu\",\n    \"url\": \"http://rtRpuHgfWowYopveMwYXC.pghmld.uQ5m\",\n    \"type\": \"ull\",\n    \"species\": \"aliqua\",\n    \"breeds\": {\n      \"primary\": \"velit amet id\",\n      \"secondary\": \"exercitation nisi\",\n      \"mixed\": false,\n      \"unknown\": false\n    },\n    \"colors\": {\n      \"primary\": \"quis consequat commodo\",\n      \"secondary\": \"adipisicing do labore laborum sed\",\n      \"tertiary\": \"aliqua fugiat voluptate eu\"\n    },\n    \"age\": \"sunt\",\n    \"gender\": \"voluptate an\",\n    \"size\": \"in mollit sed\",\n    \"coat\": \"minim sunt\",\n    \"attributes\": {\n      \"spayed_neutered\": false,\n      \"house_trained\": false,\n      \"declawed\": false,\n      \"special_needs\": true,\n      \"shots_current\": true\n    },\n    \"environment\": {\n      \"children\": false,\n      \"dogs\": false,\n      \"cats\": true\n    },\n    \"tags\": [\n      \"tempor eu\",\n      \"nostrud fugiat\"\n    ],\n    \"name\": \"ex voluptate\",\n    \"description\": \"nulla conse\",\n    \"photos\": [\n      {\n        \"small\": \"https://LIxF.wlDVd6+8ItLZXeHrIV02YbE-4UMh2QgRFo8sypRt1UFFoWOSX3\",\n        \"medium\": \"http://yiCiJoSKWNwbpTiPzzNqEmyKUNiXvt.utbkfAVQ.JFbVM39.mF78cnME3VhUnJNSQqN4rM0x2LJrGHttQjzDKS58ZsZoL0p6kSguOVI2a+b0\",\n        \"large\": \"http://YrntHskzMKFxnJv.jtX6uGAvYUHg6vlWo2ltKdlxpKN6uZicpyX-nl\",\n        \"full\": \"http://KfaLDJUwI.fzwfm8ugvLVMu4kK5Erx-KynMem9-1bQDBOGrMv0\"\n      },\n      {\n        \"small\": \"http://zlXwrckflcvGkMIBzeAoPVmjgbRvHR.efWXuhIRjFsPgW8JPuNPBZlVmWQGZnfWxk98mswM0z2fnQRZ7WJuE\",\n        \"medium\": \"http://OWOcFfyv.uoi-LlmUXBcC\",\n        \"large\": \"https://fLCVkWtTeZpGr.tzDJ7RUjN.sWod8yV9z.\",\n        \"full\": \"http://mnRFCQNlAhsfXeeSGJ.prktZci.UrWv79u\"\n      }\n    ],\n    \"status\": \"consectetur tempor reprehen\",\n    \"published_at\": \"2006-04-03T15:00:26.559Z\",\n    \"contact\": {\n      \"email\": \"GDRophzn@uqBNmMmugycGSitPbVcPwMmppPJs.bru\",\n      \"phone\": \"incididunt magna\",\n      \"address\": {\n        \"address1\": \"in ullamco aute culpa ut\",\n        \"address2\": \"eiusmod aliquip sint\",\n        \"city\": \"Lorem\",\n        \"state\": \"non qui\",\n        \"postcode\": \"laborum\",\n        \"country\": \"eiusmod est Lorem\"\n      }\n    },\n    \"_links\": {\n      \"self\": {\n        \"href\": \"http://BhtRvXmQHtnDPNPMeUQNrHaQkWcFabPN.lliKY-Ch9Etse5Sxj4rh8cwAL4OLoVwmI0Tp,jKJHftxo5,jj?i&py=ev&ur=4&\"\n      },\n      \"type\": {\n        \"href\": \"https://GhONLbWoFhNFrFovTElyxhZpcYuq.rbmwLdtwjd3HaiuD+,Z8aRE4Za6VqJgF\"\n      },\n      \"organization\": {\n        \"href\": \"https://IgsBCiZi.bamyJJ53chZ-qxveHbqcMjLzkem?wt&hikvu=EWZ&v&\"\n      }\n    }\n  }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "organizations",
+			"item": [
+				{
+					"name": "Get Organizations",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/organizations?name=in pariatur minim aliqua&location=in pariatur minim aliqua&distance=12576009&country=in pariatur minim aliqua&state=in pariatur minim aliqua&query=in pariatur minim aliqua&sort=name&limit=20&page=1",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"organizations"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results matching organization name"
+								},
+								{
+									"key": "location",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results by location (_postal code_, _city/state_, or _lat/long_)"
+								},
+								{
+									"key": "distance",
+									"value": "12576009",
+									"description": "Filter results by distance from given location"
+								},
+								{
+									"key": "country",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results by country"
+								},
+								{
+									"key": "state",
+									"value": "in pariatur minim aliqua",
+									"description": "Filter results by state"
+								},
+								{
+									"key": "query",
+									"value": "in pariatur minim aliqua",
+									"description": "Search on _name_, _city_, _state_; Fuzzy search that includes synonyms, punctuation, etc."
+								},
+								{
+									"key": "sort",
+									"value": "name",
+									"description": "Sort results by field"
+								},
+								{
+									"key": "limit",
+									"value": "20",
+									"description": "Number of results to return"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"description": "Page of results to return"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Organization collection",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/organizations?name=in pariatur minim aliqua&location=in pariatur minim aliqua&distance=12576009&country=in pariatur minim aliqua&state=in pariatur minim aliqua&query=in pariatur minim aliqua&sort=name&limit=20&page=1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"organizations"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "location",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "distance",
+											"value": "12576009"
+										},
+										{
+											"key": "country",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "state",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "query",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "sort",
+											"value": "name"
+										},
+										{
+											"key": "limit",
+											"value": "20"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"organizations\": [\n    {\n      \"id\": \"NJ333\",\n      \"name\": \"A+ Pet Shelter\",\n      \"email\": \"S2Zqf3QNNYZZmKR@ZJksXwzFpyClTNWKLfmvGMiNwSSpBlzFh.zm\",\n      \"phone\": \"in volup\",\n      \"address\": {\n        \"address1\": \"dolore\",\n        \"address2\": \"sunt\",\n        \"city\": \"et laboris non\",\n        \"state\": \"amet dolor\",\n        \"postcode\": \"laboris nostrud aliquip culpa\",\n        \"country\": \"elit\"\n      },\n      \"hours\": {\n        \"sunday\": \"velit\",\n        \"monday\": \"incididunt elit sint mollit\",\n        \"tuesday\": \"non amet in\",\n        \"wednesday\": \"Lorem do\",\n        \"thursday\": \"Lorem anim\",\n        \"friday\": \"dolore consectetur\",\n        \"saturday\": \"et dolor magna\"\n      },\n      \"url\": \"https://fjrDcXNJSsevmxIUZIJ.nceIoA3PwHsfwkwPSAmVF-QGOisypnEt-ci5gQrgDsQs9ajdayfTxa.+Wh7+hT7gc+L\",\n      \"website\": \"http://qCHjxDDfpeLnZyMDSqAMTKNlTbKrXN.qnnuFHL9lpebYdAXn,LwBC\",\n      \"mission_statement\": \"nulla do cillum\",\n      \"adoption\": {\n        \"policy\": \"Duis ut aliquip nisi\",\n        \"url\": \"officia dolor dolore in\"\n      },\n      \"social_media\": {\n        \"facebook\": \"http://msWdzGcjrkTlSnvbGuxHtmbULpYkCG.pkevCGsB\",\n        \"instagram\": \"https://BdVGuQvaBEkiivhQi.kipkzVwE2WtNPdka8a\",\n        \"twitter\": \"https://AmB.mmWnHELpfBpCDgnJfTGsiv5j0Mn5rT2X2.7LGws.5YDChllqG,eRvEiLmBEAEt\",\n        \"pinterest\": \"https://ZN.otrhNBMF8pCojqFh0Zi6j.3U\",\n        \"youtube\": \"https://jeqlKJbrLHtj.aiikUqC9wm9Wyzf02cWFn+p8u6ir1gpliIHQMTEaiLeENCEHFBT5gJMmMbM62IkDlhqkPZFKBA\"\n      },\n      \"photos\": [\n        {\n          \"small\": \"http://gNmlolsilXhMeJrrC.dlvjaMjBzhsb-4NFnI,0LktPItRR+Wp0pGMJDq\",\n          \"medium\": \"http://QmrNJyiDxNtGFvhwu.vpaQ2r-wPjeqG3E.7wtQVSHXB57KB0aW+7XV3V9jb\",\n          \"large\": \"http://ymvseFItUacMlajQEGuVmXPA.dxuhBNQeCoYueOOYtUSJcLyQrppvaSYvEh5MRyqejfEt3n\",\n          \"full\": \"https://hsQcJtmTOqZRsVXa.wsjoUIoj5Cfk2MF\"\n        },\n        {\n          \"small\": \"http://flAinJxLjbYsCpPaPwdnaSBEQx.kpuqQItPBg8mIQ-nPcLLEwkbdJB-k.8yKAbc2lDrrf2\",\n          \"medium\": \"https://kFEMVTnbhwI.bgrcOhWihHvYYZP7Rs9I\",\n          \"large\": \"http://MKIqzSfFcHyW.clrcJ0-V1eEgCUsH4\",\n          \"full\": \"http://THOtKJhqVlvTqBj.duiJo.7q\"\n        }\n      ],\n      \"_links\": {\n        \"self\": {\n          \"href\": \"https://AoifaX.ufci3XaD.S6B4GQy.3Un.4,fGhrLiEHzrDz1,+XXHhuZ8uReqpP\"\n        },\n        \"animals\": {\n          \"href\": \"http://fooZTWtzXbvaDhdYcsRRmEuVG.faphcNLE.75-liGhIeWVEmIYYJhR4.MOBdoqBI\"\n        }\n      }\n    },\n    {\n      \"id\": \"NJ333\",\n      \"name\": \"A+ Pet Shelter\",\n      \"email\": \"DVGKO5m36@qPwYIsAiseEUdCmQhZbfoUME.yzk\",\n      \"phone\": \"sunt esse culpa\",\n      \"address\": {\n        \"address1\": \"Duis fugiat qui consectetur\",\n        \"address2\": \"veniam\",\n        \"city\": \"ut nulla ex\",\n        \"state\": \"magna esse ullamco sed\",\n        \"postcode\": \"in d\",\n        \"country\": \"do pariatur occaecat\"\n      },\n      \"hours\": {\n        \"sunday\": \"adipisicing ex minim elit\",\n        \"monday\": \"reprehenderit aute\",\n        \"tuesday\": \"amet\",\n        \"wednesday\": \"dolore elit dolor\",\n        \"thursday\": \"cupidatat ea est occaecat\",\n        \"friday\": \"ex mollit sit\",\n        \"saturday\": \"id Duis ut dolor\"\n      },\n      \"url\": \"https://YmWIVWMMCckpUwUBRWBNAOE.izdxtfmg2QnFqhrqVXC.NzxId+ZPnNd+9k\",\n      \"website\": \"https://wLMrCxlfDfFgFQNiNilxeQsTeM.sgjeELlx0xuY3IwKuS.U7WW1EpbReJcl\",\n      \"mission_statement\": \"ea ipsum Duis Lorem\",\n      \"adoption\": {\n        \"policy\": \"sint anim\",\n        \"url\": \"nulla\"\n      },\n      \"social_media\": {\n        \"facebook\": \"http://cYxQFgXBBoyxAsI.srcbOmqSuiKNmVKTpv8JoEAWQV-5nEuBlvmI6rVSNukxsoaAQGPmbp\",\n        \"instagram\": \"https://bYyYnyzDWjjlnffP.rvfT7enCVy8-\",\n        \"twitter\": \"https://DpDaQJeblKFpJXPcsgscysQWNWV.kmrrAUTkAtCFytpkO6yRAOWOth\",\n        \"pinterest\": \"https://ITuQIcttczcORqZasrdeEo.jufX77HxlIRL7Y6oift2TqnEAxeXVQJQUtpOPciEgwkvv3.S5e\",\n        \"youtube\": \"http://gurRzckKXZSBibUAKtj.szbxuIvgbD3.so6Fi-HN,a,xxXQDKBei1FaLEVhpu.jAujF,cuW\"\n      },\n      \"photos\": [\n        {\n          \"small\": \"http://RgaXJPxyD.svqjsKA.FLe1GQhO8dVF1ucveHDf2bvgGiIcKghGHekJBKSP,qdb\",\n          \"medium\": \"http://DNjdVTE.kaqDRtc-8rXvu\",\n          \"large\": \"http://TrtBrrIflzhpkuvGXmlOfPnEft.sumlZAHBywCEW4qi\",\n          \"full\": \"http://uqBXMbfo.slqqUIrS6WHBNdGYgBXx,1hU12SUcXbwZ9ZJf4oeQowsdBNQ5ceBZBbqb0RGMZdA\"\n        },\n        {\n          \"small\": \"http://RrLDmvZxZCaXQlqhHxNM.xxgvFOoB2fXZ1itbgCZ9,oMP66bnXUOs\",\n          \"medium\": \"https://vAPUbtQmMLZTnTncrztloEiKckToic.jiaxsip3Gyf2wgsavy1VHUwVJovCOubVWnZWkcg7t\",\n          \"large\": \"http://ivlZYlNhlJy.wbgixP\",\n          \"full\": \"http://lCBbHpIyMBACesTjUxqMVqQWZlbLqC.mmyNFqVcf3Fj3Uu5z-8sjxVynQY5humt6+SPL,i2T8h1\"\n        }\n      ],\n      \"_links\": {\n        \"self\": {\n          \"href\": \"https://ziSIxRkUqjHpqLjamvnI.thNmvZ,rY8cAtR1s2PSY6Ol?basvwuo&nmag&\"\n        },\n        \"animals\": {\n          \"href\": \"http://bwYdjkKZxjPgctrTwGcOa.vwbiVe-J4Q5HllPA.QIJmBpih7ush2zis7BODW4sB,D-vg?hxaak&tnphh=sx&fndvljl&\"\n        }\n      }\n    }\n  ],\n  \"pagination\": {\n    \"count_per_page\": 20,\n    \"total_count\": 320,\n    \"current_page\": 1,\n    \"total_pages\": 16,\n    \"_links\": {\n      \"previous\": {\n        \"href\": \"http://xSSpkBwY.itfed-EvwNv.Dfzba7qJaoZcbbf.wu00CRkSwUaUAdStaWC7I.wSYBjqFF?rw&\"\n      },\n      \"next\": {\n        \"href\": \"http://FGrcSJqTpInmIhyfrd.dvz6x9jwDXyYJj.grpfmQqCus51ZyyZ+YBqO+RHaKfylM+0-jWnF-578rt0bqbjdR,hOh2K\"\n      }\n    }\n  }\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/organizations?name=in pariatur minim aliqua&location=in pariatur minim aliqua&distance=12576009&country=in pariatur minim aliqua&state=in pariatur minim aliqua&query=in pariatur minim aliqua&sort=name&limit=20&page=1",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"organizations"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "location",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "distance",
+											"value": "12576009"
+										},
+										{
+											"key": "country",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "state",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "query",
+											"value": "in pariatur minim aliqua"
+										},
+										{
+											"key": "sort",
+											"value": "name"
+										},
+										{
+											"key": "limit",
+											"value": "20"
+										},
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/problem+json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"type\": \"est\",\n  \"title\": \"esse minim\",\n  \"detail\": \"ex consectetur\",\n  \"status\": -98378904\n}"
+						}
+					]
+				},
+				{
+					"name": "Get Organization",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/organizations/:id",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"organizations",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "in pariatur minim aliqua",
+									"description": "(Required) Organization ID"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Organization",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/organizations/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"organizations",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "in pariatur minim aliqua",
+											"description": "(Required) Organization ID"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"organization\": {\n    \"id\": \"NJ333\",\n    \"name\": \"A+ Pet Shelter\",\n    \"email\": \"pXq@AcMqdaHcp.xgu\",\n    \"phone\": \"minim reprehenderit officia\",\n    \"address\": {\n      \"address1\": \"eu in ea Excepteur\",\n      \"address2\": \"in id\",\n      \"city\": \"consequat est ut id\",\n      \"state\": \"velit\",\n      \"postcode\": \"aliquip\",\n      \"country\": \"eiusmod aliqua\"\n    },\n    \"hours\": {\n      \"sunday\": \"commodo adipisicing in ut\",\n      \"monday\": \"dolore\",\n      \"tuesday\": \"exercitation in id\",\n      \"wednesday\": \"sint aliqua\",\n      \"thursday\": \"ut magna ipsum eiusmod labore\",\n      \"friday\": \"ullamco\",\n      \"saturday\": \"reprehen\"\n    },\n    \"url\": \"http://tAJMoaoTRvadqQwRvPaB.gfdMufC\",\n    \"website\": \"http://ekraxJWqGQqpdMTVprKdIvBjz.xapV4xEt2eUciWYbZPkX7CQLauThx6XSisY,sik4xWpSXQ.ZOwsKQwG,x,7GTvcklEUMqI.gw\",\n    \"mission_statement\": \"dolor\",\n    \"adoption\": {\n      \"policy\": \"amet sed deserunt velit\",\n      \"url\": \"occaecat\"\n    },\n    \"social_media\": {\n      \"facebook\": \"http://NJxJaNnSovTMeASZrZcCgLUsWLenh.svZ1jqKrpbx\",\n      \"instagram\": \"https://hfiS.kluwHmaYTlXHd9h90xGtq9ezEKuhNBGAM7-aJjlcxjE6mkExQlyv\",\n      \"twitter\": \"http://euFSnSSZcgoqKatpoU.xsymJJe6MRs77LetYWBP-CtPhJS1jDNVTLPUCOyHtyZYpZpLU16NystCEBRP-uA5JYk33n\",\n      \"pinterest\": \"http://YAibEQTmTap.kuzpXwagvPvDV+R1B.pylGEonQdUtKGRPbkv5xXQZHV.RbWECRuZkn.ePq-UHg6qB92\",\n      \"youtube\": \"http://mz.wuLbUYCYhzHnEVus3bAlapY2cLxsJXIPyfID\"\n    },\n    \"photos\": [\n      {\n        \"small\": \"https://ya.bgbgyMZnybppCTG,hgCSbtL2uSrC4hGA4BdlQlrItwP4xrZTPbbnm.H\",\n        \"medium\": \"http://WaxbkvliaHdMQhis.yrZ8XiNGIS+,JaaPU7uhda2MP2csegX-.-bOa603\",\n        \"large\": \"http://ZvgmFpYDddJUTauyvybBPkFtmEDcTXO.nguzER,cWtJ6F3oEuHpWL\",\n        \"full\": \"https://pPOvdwnjkAmJbvbOhJULVeJearqHS.pgqusyRk3mt5tI.,8P0Mt9T0Oqbec7ea9Q-QTk8CCjaumWTh8aGgui5Si4P,CJLFIVq\"\n      },\n      {\n        \"small\": \"http://mwHCnEWcdXOMGFuIShhNTxYlPFv.kvftuksGbVBNX0A4yShaohSfl4ima-VR6-Lmx\",\n        \"medium\": \"http://SOBqgjLCFlnfhsQjDyJXLyKtWSMkwy.yqqLw.MOAnpcjf4LqkjBES2YfbJKuGMXoWNuN1kzcOSEL\",\n        \"large\": \"http://AQgPjjIUyzbAzDpCpPx.mxtwzUQdJA\",\n        \"full\": \"https://hvWiRoXBgsOgObNVyl.knnLFoZG6zPiZtcN3bfl9FOTQMp17p1yPxVNh,ssUmUAvJM1yhvnTM2lKu-mSTC\"\n      }\n    ],\n    \"_links\": {\n      \"self\": {\n        \"href\": \"http://HbeFklWcamoyVcJIuMablf.qql6ybU5y+jX64G0FJ8CHKykiiKGSjIsJpLk,LszRvOmqfUNx0sJlBj4kb-lr?c=yVe3&iliobk&ahvj&\"\n      },\n      \"animals\": {\n        \"href\": \"http://TAns.xcwbvDgHyK36EUHbw?d=NlvsM&\"\n      }\n    }\n  }\n}"
+						},
+						{
+							"name": "Error",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: oauth2",
+										"key": "Authorization",
+										"value": "<token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/organizations/:id",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"organizations",
+										":id"
+									],
+									"variable": [
+										{
+											"key": "id",
+											"value": "in pariatur minim aliqua",
+											"description": "(Required) Organization ID"
+										}
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/problem+json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"type\": \"est\",\n  \"title\": \"esse minim\",\n  \"detail\": \"ex consectetur\",\n  \"status\": -98378904\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "grant_type",
+				"value": "client_credentials",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "atu6mkvUCSA0YBWr9roHYvjpPVX3qdjNQnNqJmAM",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "gvzhsqlRYJZ8CIxfYG60swbWvS8B4dVMQK8DQ39r1Zkqa043Gv",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "https://api.petfinder.com/v2/oauth2/token",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "https://api.petfinder.com/v2/oauth2/token",
+				"type": "string"
+			},
+			{
+				"key": "tokenName",
+				"value": "petfindertoken",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://api.petfinder.com/v2",
+			"type": "string"
+		}
+	]
+}

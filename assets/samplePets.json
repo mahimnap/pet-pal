@@ -1,0 +1,1004 @@
+{
+  "animals": [
+    {
+      "id": 60587069,
+      "organization_id": "NJ1021",
+      "url": "https://www.petfinder.com/dog/madera-60587069/nj/trenton/trenton-animal-shelter-nj1021/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull Terrier",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": ["Friendly", "Affectionate", "Gentle"],
+      "name": "Madera",
+      "description": "Madera is a sweet, gentle boy. He is about 2 years old and 50 lbs. He was surrendered by his...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/2/?bust=1678199362&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/2/?bust=1678199362&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/2/?bust=1678199362&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/2/?bust=1678199362"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587069/1/?bust=1678199362"
+      },
+      "videos": [
+        {
+          "embed": "<iframe title=\"Video\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen name=\"vidly-frame\" src=\"https://s.vid.ly/embeded.html?link=j7d9r0&autoplay=false\"><a target=\"_blank\" href=\"https://vid.ly/j7d9r0\"><img src=\"https://cf.cdn.vid.ly/j7d9r0/poster.jpg\" /></a></iframe>"
+        }
+      ],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:29:29+0000",
+      "published_at": "2023-03-07T14:29:28+0000",
+      "distance": null,
+      "contact": {
+        "email": "mherwig@trentonnj.org",
+        "phone": "(609) 989-3254",
+        "address": {
+          "address1": "72 Escher St",
+          "address2": null,
+          "city": "Trenton",
+          "state": "NJ",
+          "postcode": "08609",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587069"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nj1021"
+        }
+      }
+    },
+    {
+      "id": 60587068,
+      "organization_id": "FL1041",
+      "url": "https://www.petfinder.com/dog/brie-60587068/fl/clewiston/all-for-the-critters-inc-fl1041/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Corgi",
+        "secondary": "Terrier",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": "Black",
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": ["Friendly", "Smart", "Curious", "Brave", "Independent", "Athletic"],
+      "name": "Brie",
+      "description": "Hi, my name is Brie! I am an 11-week-old, 5lb mixed breed pup. Staff aren&#039;t exactly sure what breeds I...",
+      "organization_animal_id": "9847",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/2/?bust=1678199330&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/2/?bust=1678199330&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/2/?bust=1678199330&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/2/?bust=1678199330"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/3/?bust=1678199336&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/3/?bust=1678199336&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/3/?bust=1678199336&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/3/?bust=1678199336"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/4/?bust=1678199336&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/4/?bust=1678199336&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/4/?bust=1678199336&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/4/?bust=1678199336"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/5/?bust=1678199337&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/5/?bust=1678199337&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/5/?bust=1678199337&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/5/?bust=1678199337"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587068/1/?bust=1678199330"
+      },
+      "videos": [
+        {
+          "embed": "<iframe title=\"Video\" frameborder=\"0\" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen name=\"vidly-frame\" src=\"https://s.vid.ly/embeded.html?link=d9b1x8&autoplay=false\"><a target=\"_blank\" href=\"https://vid.ly/d9b1x8\"><img src=\"https://cf.cdn.vid.ly/d9b1x8/poster.jpg\" /></a></iframe>"
+        }
+      ],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:29:00+0000",
+      "published_at": "2023-03-07T14:28:59+0000",
+      "distance": null,
+      "contact": {
+        "email": "allforthecritters@yahoo.com",
+        "phone": "(863) 983-9145",
+        "address": {
+          "address1": "901 W. Ventura Ave.,",
+          "address2": null,
+          "city": "Clewiston",
+          "state": "FL",
+          "postcode": "33440",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587068"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/fl1041"
+        }
+      }
+    },
+    {
+      "id": 60587066,
+      "organization_id": "FL668",
+      "url": "https://www.petfinder.com/dog/car-seat-french-fry-60587066/fl/oviedo/save-a-life-pet-rescue-fl668/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Chocolate Labrador Retriever",
+        "secondary": "Golden Retriever",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Female",
+      "size": "Large",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": true
+      },
+      "tags": [],
+      "name": "Car Seat French Fry",
+      "description": "This pet will be available for adoption this Saturday and Sunday.\n*Pets cannot be adopted prior to Saturdays adoption event*...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587066/1/?bust=1678199299"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:28:21+0000",
+      "published_at": "2023-03-07T14:28:20+0000",
+      "distance": null,
+      "contact": {
+        "email": "Savealifepetres@aol.com",
+        "phone": "(407) 952-1037",
+        "address": {
+          "address1": "PO Box 623341",
+          "address2": null,
+          "city": "Oviedo",
+          "state": "FL",
+          "postcode": "32762",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587066"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/fl668"
+        }
+      }
+    },
+    {
+      "id": 60587061,
+      "organization_id": "NH03",
+      "url": "https://www.petfinder.com/dog/brady-60587061/nh/bedford/animal-rescue-league-of-new-hampshire-nh03/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Black Labrador Retriever",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Black",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Large",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Brady",
+      "description": "Brady is a 1 year old black lab who is looking for an active family.\n\nThis sweet boy warms up...",
+      "organization_animal_id": "ARLN-A-30718",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:26:36+0000",
+      "published_at": "2023-03-07T14:26:35+0000",
+      "distance": null,
+      "contact": {
+        "email": "ehills@rescueleague.org",
+        "phone": "(603) 472-3647",
+        "address": {
+          "address1": "545 Route 101",
+          "address2": null,
+          "city": "Bedford",
+          "state": "NH",
+          "postcode": "03110",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587061"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nh03"
+        }
+      }
+    },
+    {
+      "id": 60587062,
+      "organization_id": "SC239",
+      "url": "https://www.petfinder.com/dog/brock-60587062/sc/greenville/greenville-county-animal-care-sc239/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Terrier",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Black",
+        "secondary": "Yellow / Tan / Blond / Fawn",
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": ["Stray in Custody"],
+      "name": "Brock",
+      "description": "He&amp;#39;s such a sweet and smart boy! Brock and the cat are becoming friends, so with slow introductions he may...",
+      "organization_animal_id": "GCAC-A-81303",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:26:36+0000",
+      "published_at": "2023-03-07T14:26:35+0000",
+      "distance": null,
+      "contact": {
+        "email": "adoptapet@greenvillecounty.org",
+        "phone": "(864) 467-3985",
+        "address": {
+          "address1": "328 Furman Hall Road",
+          "address2": null,
+          "city": "Greenville",
+          "state": "SC",
+          "postcode": "29609",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587062"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/sc239"
+        }
+      }
+    },
+    {
+      "id": 60587063,
+      "organization_id": "GA926",
+      "url": "https://www.petfinder.com/dog/mary-puppins-12-0815-60587063/ga/tyrone/royal-animal-refuge-ga926/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Maltese",
+        "secondary": "Poodle",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Mary Puppins 12-0815",
+      "description": null,
+      "organization_animal_id": "RARR-A-2604",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:26:36+0000",
+      "published_at": "2023-03-07T14:26:35+0000",
+      "distance": null,
+      "contact": {
+        "email": "petfinder@royalanimalrefuge.org",
+        "phone": null,
+        "address": {
+          "address1": "414 Jenkins Rd",
+          "address2": null,
+          "city": "Tyrone",
+          "state": "GA",
+          "postcode": "30290",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587063"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ga926"
+        }
+      }
+    },
+    {
+      "id": 60587056,
+      "organization_id": "GA276",
+      "url": "https://www.petfinder.com/dog/julius-60587056/ga/bainbridge/bainbridge-decatur-county-humane-society-ga276/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Gray / Blue / Silver",
+        "secondary": "White / Cream",
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [
+        "Friendly",
+        "Affectionate",
+        "Loyal",
+        "Independent",
+        "Curious",
+        "Loves kisses",
+        "Funny",
+        "Athletic",
+        "Playful",
+        "Gentle",
+        "Smart"
+      ],
+      "name": "Julius",
+      "description": "Hi! I&#039;m Julius! (39210). I was brought in by animal control when I was found roaming. I&#039;m a cute guy...",
+      "organization_animal_id": "39219",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/2/?bust=1678199162&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/2/?bust=1678199162&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/2/?bust=1678199162&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/2/?bust=1678199162"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/3/?bust=1678199162&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/3/?bust=1678199162&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/3/?bust=1678199162&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/3/?bust=1678199162"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587056/1/?bust=1678199161"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:26:04+0000",
+      "published_at": "2023-03-07T14:26:03+0000",
+      "distance": null,
+      "contact": {
+        "email": "bainbridgedchs@bellsouth.net",
+        "phone": "(229) 246-0101",
+        "address": {
+          "address1": "1250 Cox Avenue",
+          "address2": null,
+          "city": "Bainbridge",
+          "state": "GA",
+          "postcode": "39819",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587056"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ga276"
+        }
+      }
+    },
+    {
+      "id": 60587055,
+      "organization_id": "OH426",
+      "url": "https://www.petfinder.com/dog/lily-60587055/oh/cincinnati/save-the-animals-foundation-oh426/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Maltipoo",
+        "secondary": "Bichon Frise",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Medium",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": ["Friendly", "Affectionate", "Loyal", "Gentle"],
+      "name": "Lily",
+      "description": "Meet Lily! Lily came to STAF as an owner surrender and we just can&#039;t figure out why someone wouldn&#039;t want...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/1/?bust=1678199145&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/1/?bust=1678199145&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/1/?bust=1678199145&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/1/?bust=1678199145"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/2/?bust=1678199146&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/2/?bust=1678199146&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/2/?bust=1678199146&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/2/?bust=1678199146"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587055/3/?bust=1678199147"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:25:49+0000",
+      "published_at": "2023-03-07T14:25:48+0000",
+      "distance": null,
+      "contact": {
+        "email": "info@staf.org",
+        "phone": "(513) 561-7823",
+        "address": {
+          "address1": "4011 Red Bank Road",
+          "address2": null,
+          "city": "Cincinnati",
+          "state": "OH",
+          "postcode": "45227",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587055"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/oh426"
+        }
+      }
+    },
+    {
+      "id": 60587050,
+      "organization_id": "NC1032",
+      "url": "https://www.petfinder.com/dog/oliver-60587050/nc/greensboro/guilford-county-animal-shelter-nc1032/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull Terrier",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Oliver",
+      "description": null,
+      "organization_animal_id": "GCAS-A-8190",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:25:19+0000",
+      "published_at": "2023-03-07T14:25:18+0000",
+      "distance": null,
+      "contact": {
+        "email": "hmitchell@guilfordcountync.gov",
+        "phone": "(336) 641-3401",
+        "address": {
+          "address1": "980 Guilford College Rd.",
+          "address2": null,
+          "city": "Greensboro",
+          "state": "NC",
+          "postcode": "27409",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587050"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nc1032"
+        }
+      }
+    },
+    {
+      "id": 60587053,
+      "organization_id": "NC1032",
+      "url": "https://www.petfinder.com/dog/bee-boop-60587053/nc/greensboro/guilford-county-animal-shelter-nc1032/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shepherd",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Red / Chestnut / Orange",
+        "secondary": "Black",
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": ["Heartworm Negative"],
+      "name": "Bee Boop",
+      "description": null,
+      "organization_animal_id": "GCAS-A-8179",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587053/1/?bust=1678199725"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:25:20+0000",
+      "published_at": "2023-03-07T14:25:18+0000",
+      "distance": null,
+      "contact": {
+        "email": "hmitchell@guilfordcountync.gov",
+        "phone": "(336) 641-3401",
+        "address": {
+          "address1": "980 Guilford College Rd.",
+          "address2": null,
+          "city": "Greensboro",
+          "state": "NC",
+          "postcode": "27409",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587053"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nc1032"
+        }
+      }
+    },
+    {
+      "id": 60587049,
+      "organization_id": "NC1032",
+      "url": "https://www.petfinder.com/dog/nina-60587049/nc/greensboro/guilford-county-animal-shelter-nc1032/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Husky",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Sable",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Senior",
+      "gender": "Female",
+      "size": "Large",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": ["Heartworm Negative"],
+      "name": "Nina",
+      "description": null,
+      "organization_animal_id": "GCAS-A-8157",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587049/1/?bust=1678199726"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:25:20+0000",
+      "published_at": "2023-03-07T14:25:18+0000",
+      "distance": null,
+      "contact": {
+        "email": "hmitchell@guilfordcountync.gov",
+        "phone": "(336) 641-3401",
+        "address": {
+          "address1": "980 Guilford College Rd.",
+          "address2": null,
+          "city": "Greensboro",
+          "state": "NC",
+          "postcode": "27409",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587049"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nc1032"
+        }
+      }
+    },
+    {
+      "id": 60587048,
+      "organization_id": "NC1032",
+      "url": "https://www.petfinder.com/dog/susie-60587048/nc/greensboro/guilford-county-animal-shelter-nc1032/?referrer_id=68e4c7ed-1999-4483-95a1-762c12aa53a6",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull Terrier",
+        "secondary": "Black Labrador Retriever",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Black",
+        "secondary": "White / Cream",
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": ["Heartworm Positive", "Timid"],
+      "name": "Susie",
+      "description": null,
+      "organization_animal_id": "GCAS-A-7985",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/60587048/1/?bust=1678199726"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-03-07T14:25:20+0000",
+      "published_at": "2023-03-07T14:25:18+0000",
+      "distance": null,
+      "contact": {
+        "email": "hmitchell@guilfordcountync.gov",
+        "phone": "(336) 641-3401",
+        "address": {
+          "address1": "980 Guilford College Rd.",
+          "address2": null,
+          "city": "Greensboro",
+          "state": "NC",
+          "postcode": "27409",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/60587048"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nc1032"
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "count_per_page": 20,
+    "total_count": 143376,
+    "current_page": 2,
+    "total_pages": 7169,
+    "_links": {
+      "previous": {
+        "href": "/v2/animals?page=1&type=dog"
+      },
+      "next": {
+        "href": "/v2/animals?page=3&type=dog"
+      }
+    }
+  }
+}
